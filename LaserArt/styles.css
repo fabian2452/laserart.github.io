@@ -1,0 +1,92 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo h1 {
+    font-size: 32px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+  }
+  
+  .product-card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+
+  /* ... (código previo) ... */
+
+.more-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+  }
+  
+  .more-products .product-card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* ... (código posterior) ... */
+  
+  
